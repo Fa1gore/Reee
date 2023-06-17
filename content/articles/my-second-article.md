@@ -3,8 +3,6 @@ Date: 16 June 2023
 Category: Blog
 Tags: Hardware
 
-# My Second Article
-
 This is the content of my first article using Pelican and Markdown
 
 - List item 1
