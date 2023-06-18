@@ -1,4 +1,5 @@
-Title: My First Article
+Title: My First Article\
+Summary: this is a short summary
 Date: 16 June 2023
 Category: Blog
 Tags: Bluejay, Birds
