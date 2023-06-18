@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ SITENAME }}</title>
+</head>
+<body>
+    <h1>Welcome to {{ SITENAME }}</h1>
+
+    <nav>
+        <ul>
+            {% for page in pages %}
+            <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <div>
+        <h2>Latest Articles:</h2>
+        <ul>
+            {% for article in articles[:5] %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <footer>
+    
+    </footer>
+</body>
+</html>
