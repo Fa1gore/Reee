@@ -8,12 +8,13 @@ TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
 
+
 #Template engine configuration, If its not explicitly set,
 #Pelican will use the Jina2 default index.html and generate one in your root subdirectory
 
 #TEMPLATE_PAGES = {'templates/index.html': 'index.html'}
 
-THEME = 'themes/basicbitch'
+#THEME = 'themes/basicbitch'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
