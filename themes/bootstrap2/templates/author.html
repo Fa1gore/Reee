@@ -1,2 +1,8 @@
-{% extends "index.html" %}
-{% block title %}{{ SITENAME }} - {{ author }}{% endblock %}
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ author.name }}</h1>
+    <p>{{ author.bio }}</p>
+    <p>Website: <a href="{{ author.website }}">{{ author.website }}</a></p>
+    <img src="{{ author.image }}" alt="{{ author.name }}'s Image">
+{% endblock %}

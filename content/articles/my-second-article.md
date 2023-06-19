@@ -1,4 +1,5 @@
 Title: My Second Article
+Authors: Charles Henderson
 Date: 16 June 2023
 Category: language
 Tags: Hardware, Software, Baseball

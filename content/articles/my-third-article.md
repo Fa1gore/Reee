@@ -1,4 +1,5 @@
 Title: My Third Article
+Authors: Charles Henderson
 Date: 16 June 2023
 Category: Blog
 Tags: Software, CSS, HTML

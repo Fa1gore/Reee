@@ -1,4 +1,22 @@
-AUTHOR = 'fa1gore'
+AUTHORS = {
+    'Fa1gore': {
+        'name': 'Fa1gore',
+        'bio': 'A short bio of author one.',
+        'website': 'https://www.author1website.com/'
+    },
+    'Jimminy Cricket': {
+        'name': 'Jimminy Cricket',
+        'bio': 'A short bio of author two.',
+        'website': 'https://www.author2website.com/'
+    },
+    'Charles Henderson': {
+        'name': 'Jimminy Cricket',
+        'bio': 'My name is Chareles Henderson, and im the fastes gun in the west',
+        'website': 'https://www.author2website.com/'
+    },
+    # Add more authors as needed
+}
+
 SITENAME = 'Reee'
 SITEURL = ''
 
@@ -38,6 +56,7 @@ DEFAULT_PAGINATION = 10
 # Output articles in the "articles" subdirectory
 ARTICLE_URL = 'articles/{slug}.html'
 ARTICLE_SAVE_AS = 'articles/{slug}.html'
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

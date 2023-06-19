@@ -1,4 +1,5 @@
 Title: My Thoughts On Magic
+Authors: Charles Henderson
 Summary: Magic, sometimes spelled magic
 Date: 17 June 2023
 Category: Blog
